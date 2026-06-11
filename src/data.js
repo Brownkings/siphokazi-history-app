@@ -57,8 +57,18 @@ export const quizQuestions = [
     answer: 2
   },
   {
+    question: "What did Hitler promise the German people to get them to vote for him?",
+    options: ["To start World War II immediately", "To make friends with France and Britain", "To ignore the Treaty of Versailles and give people jobs", "To give away Germany's land"],
+    answer: 2
+  },
+  {
     question: "What were the Nuremberg Laws?",
     options: ["Laws to protect nature", "Laws that took away the rights of Jewish people", "Laws about trading in Europe", "Laws about Germany's borders"],
+    answer: 1
+  },
+  {
+    question: "What word describes the planned killing of millions of Jewish people by the Nazis?",
+    options: ["Appeasement", "The Holocaust", "The Cold War", "The Arms Race"],
     answer: 1
   },
   {
@@ -67,8 +77,43 @@ export const quizQuestions = [
     answer: 2
   },
   {
+    question: "What did Britain and France do at first when Hitler started taking land (Appeasement)?",
+    options: ["They gave him what he wanted hoping to avoid war", "They dropped a nuclear bomb", "They started the Cold War", "They immediately declared war"],
+    answer: 0
+  },
+  {
+    question: "Why did the USA drop atomic bombs on Hiroshima and Nagasaki in 1945?",
+    options: ["To test the bombs on empty land", "To make Japan surrender quickly and save American lives", "To start the Cold War with Russia", "To punish Germany"],
+    answer: 1
+  },
+  {
+    question: "After World War II, which two countries became the world's most powerful 'superpowers'?",
+    options: ["Britain and France", "Germany and Japan", "The USA and the USSR (Russia)", "China and Italy"],
+    answer: 2
+  },
+  {
+    question: "What is the main difference between the beliefs of the USA and the USSR?",
+    options: ["USA was communist, USSR was capitalist", "USA was capitalist (free), USSR was communist (strict government control)", "They both believed in strict government control", "They both believed people should be free to vote"],
+    answer: 1
+  },
+  {
     question: "Why was the fight between the USA and USSR called the 'Cold War'?",
     options: ["Because they fought in the winter", "Because they never fought each other directly", "Because they used ice weapons", "Because the leaders were cold to each other"],
+    answer: 1
+  },
+  {
+    question: "What was the 'Iron Curtain'?",
+    options: ["A real metal wall built across America", "A new type of weapon", "The imaginary line that divided free Western Europe and controlled Eastern Europe", "A famous play written during World War II"],
+    answer: 2
+  },
+  {
+    question: "What do we call it when the superpowers supported opposite sides in smaller wars (like the Vietnam War) instead of fighting each other?",
+    options: ["A World War", "A Proxy War", "A Civil War", "A Cold War"],
+    answer: 1
+  },
+  {
+    question: "What was the 'Arms Race' during the Cold War?",
+    options: ["A running race between American and Russian athletes", "A competition to build the most nuclear weapons", "A race to build the fastest airplanes", "A competition to explore the ocean"],
     answer: 1
   }
 ];
