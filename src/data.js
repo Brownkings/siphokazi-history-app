@@ -2,179 +2,179 @@ export const timelineEvents = [
   {
     year: "1919",
     title: "Treaty of Versailles",
-    description: "WWI ends. Germany is heavily punished, leading to the weak Weimar Republic."
+    description: "World War I ends. Germany is punished very harshly, which leads to the weak Weimar Republic government."
   },
   {
     year: "1929",
     title: "Wall Street Crash",
-    description: "The Great Depression begins, severely impacting Germany and causing mass poverty."
+    description: "The Great Depression begins. People lose their money, and there is terrible poverty in Germany."
   },
   {
     year: "1933",
     title: "Hitler becomes Chancellor",
-    description: "Hitler is appointed Chancellor and soon dismantles democracy to become a dictator."
+    description: "Hitler becomes the leader of Germany. He quickly destroys democracy and becomes a dictator with total power."
   },
   {
     year: "1935",
     title: "Nuremberg Laws",
-    description: "Laws passed to strip Jewish people of their rights, paving the way for the Holocaust."
+    description: "Laws are passed to take away the rights of Jewish people. This is the start of the Holocaust."
   },
   {
     year: "1939",
     title: "Invasion of Poland",
-    description: "Germany invades Poland, officially starting World War II."
+    description: "Germany attacks Poland. Because of this, Britain and France declare war, and World War II begins."
   },
   {
     year: "1945",
     title: "Atomic Bombings",
-    description: "USA drops atomic bombs on Hiroshima and Nagasaki, ending WWII."
+    description: "The USA drops atomic bombs on Hiroshima and Nagasaki in Japan. This ends World War II."
   },
   {
     year: "1945+",
     title: "The Cold War Begins",
-    description: "The USA (capitalist) and USSR (communist) emerge as hostile superpowers."
+    description: "The USA (capitalist) and USSR (communist) become the most powerful countries, but they do not trust each other."
   }
 ];
 
 export const flashcards = [
-  { term: "Weimar Republic", definition: "The weak democratic government in Germany after WWI." },
-  { term: "Appeasement", definition: "Britain and France's initial policy of giving in to Hitler to avoid war." },
-  { term: "Anschluss", definition: "Germany's annexation of Austria before WWII." },
-  { term: "Superpower", definition: "A dominant global nation. The USA and USSR emerged as superpowers after WWII." },
-  { term: "Iron Curtain", definition: "The ideological and physical divide between Western and Eastern Europe during the Cold War." },
-  { term: "Proxy War", definition: "When superpowers support opposing sides in other countries' conflicts instead of fighting directly." }
+  { term: "Weimar Republic", definition: "The weak democratic government in Germany after World War I." },
+  { term: "Appeasement", definition: "When Britain and France gave Hitler what he wanted, hoping to avoid another war." },
+  { term: "Anschluss", definition: "When Germany took control of Austria before World War II started." },
+  { term: "Superpower", definition: "A very powerful country. The USA and USSR became superpowers after World War II." },
+  { term: "Iron Curtain", definition: "An imaginary line that divided Europe during the Cold War. The West was free, and the East was controlled by the USSR." },
+  { term: "Proxy War", definition: "When the USA and USSR supported opposite sides in other countries' wars instead of fighting each other directly." }
 ];
 
 export const quizQuestions = [
   {
-    question: "What treaty ended World War I and severely punished Germany?",
+    question: "What treaty ended World War I and punished Germany?",
     options: ["Treaty of Paris", "Treaty of Versailles", "Treaty of London", "Treaty of Berlin"],
     answer: 1
   },
   {
-    question: "What major economic event in 1929 helped the Nazi party gain popularity?",
+    question: "What big money problem in 1929 helped the Nazi party get more support?",
     options: ["The Industrial Revolution", "The Gold Rush", "The Wall Street Crash", "The Marshall Plan"],
     answer: 2
   },
   {
     question: "What were the Nuremberg Laws?",
-    options: ["Laws protecting the environment", "Laws stripping Jewish people of their rights", "Laws regulating trade in Europe", "Laws defining the borders of Germany"],
+    options: ["Laws to protect nature", "Laws that took away the rights of Jewish people", "Laws about trading in Europe", "Laws about Germany's borders"],
     answer: 1
   },
   {
     question: "Which event officially started World War II in 1939?",
-    options: ["The bombing of Pearl Harbor", "The assassination of Archduke Franz Ferdinand", "The invasion of Poland", "The dropping of the atomic bomb"],
+    options: ["The bombing of Pearl Harbor", "The murder of Archduke Franz Ferdinand", "The invasion of Poland", "The dropping of the atomic bomb"],
     answer: 2
   },
   {
-    question: "Why was the conflict between the USA and USSR called the 'Cold War'?",
-    options: ["Because it was fought in winter", "Because they never fought each other directly in open combat", "Because they used ice weapons", "Because of the cold relations between their leaders"],
+    question: "Why was the fight between the USA and USSR called the 'Cold War'?",
+    options: ["Because they fought in the winter", "Because they never fought each other directly", "Because they used ice weapons", "Because the leaders were cold to each other"],
     answer: 1
   }
 ];
 
 export const practiceExam = [
-  // SECTION A: WORLD WAR II CONTEXT (Source-based & Short Answer)
+  // SECTION A: WORLD WAR II CONTEXT
   {
-    question: "1. Mention TWO terms of the Treaty of Versailles which were seen as punishment for Germany.",
+    question: "1. Give TWO terms of the Treaty of Versailles that punished Germany.",
     marks: 2,
-    answer: "1) Germany was forced to pay massive reparations (fines). 2) They lost significant territory. 3) Their military was severely restricted."
+    answer: "1) Germany had to pay a lot of money (reparations). 2) They lost a lot of land. 3) Their army was made very small."
   },
   {
-    question: "2. What major economic event happened in 1929, and how did it impact Germany?",
+    question: "2. What big economic problem happened in 1929, and how did it affect Germany?",
     marks: 4,
-    answer: "The Wall Street Crash (1929) started the Great Depression. It severely impacted Germany because American banks recalled their loans. This caused mass unemployment, poverty, and hyperinflation, making Germans lose faith in the Weimar Republic."
+    answer: "The Wall Street Crash in 1929 started the Great Depression. American banks asked Germany to pay back the money they borrowed. This caused many people to lose their jobs and money in Germany. People became desperate and lost trust in their government."
   },
   {
-    question: "3. Name TWO promises Adolf Hitler made to the German people to gain popularity.",
+    question: "3. Give TWO promises Adolf Hitler made to the German people.",
     marks: 2,
-    answer: "He promised to: 1) Tear up the Treaty of Versailles. 2) Restore Germany's national pride. 3) Fix the economy and create jobs."
+    answer: "He promised to: 1) Ignore the Treaty of Versailles. 2) Make Germany proud and strong again. 3) Fix the economy and give people jobs."
   },
   {
-    question: "4. Define the term 'Holocaust' in your own words.",
+    question: "4. Explain the word 'Holocaust' in your own words.",
     marks: 2,
-    answer: "The state-sponsored, systematic persecution and mass murder of millions of European Jews and other minorities by the German Nazi regime between 1933 and 1945."
+    answer: "It was the planned killing of millions of Jewish people and other groups by the Nazi government during World War II."
   },
   {
-    question: "5. Who were murdered during the Holocaust? Identify TWO groups of people.",
+    question: "5. Who were murdered during the Holocaust? Name TWO groups of people.",
     marks: 2,
-    answer: "European Jews, Romani people, the intellectually disabled, political dissidents, and homosexuals."
+    answer: "Jewish people, Romani people, disabled people, and people who disagreed with the Nazi government."
   },
   {
     question: "6. According to the Nuremberg Laws of 1935, what rights did Jewish people lose?",
     marks: 3,
-    answer: "They lost their German citizenship, were forbidden to marry non-Jews, and were systematically excluded from public, social, and economic life."
+    answer: "They were no longer German citizens, they were not allowed to marry non-Jewish people, and they could not use public places or run businesses."
   },
   {
-    question: "7. Why were the Jewish ghettoes a breeding ground for diseases like typhus?",
+    question: "7. Why were the Jewish ghettoes full of diseases like typhus?",
     marks: 2,
-    answer: "Because of severe overpopulation, widespread poverty, hunger, and poor sanitation."
+    answer: "Because too many people were forced into small areas. They had no clean water, and there was not enough food."
   },
   {
-    question: "8. What sparked the Warsaw Ghetto Uprising in 1943?",
+    question: "8. What caused the Warsaw Ghetto Uprising in 1943?",
     marks: 2,
-    answer: "The resistance was sparked by the constant deportations to extermination camps, disease, and starvation. The resistance fighters held off the Nazis for almost a month."
+    answer: "The people in the ghetto fought back because they were starving, dying of disease, and being sent to death camps."
   },
   {
-    question: "9. Why did the Allied forces fail to respond immediately to reports of Nazi killings during the war?",
+    question: "9. Why did the Allied countries (like Britain and USA) fail to help the Jewish people during the war?",
     marks: 2,
-    answer: "They were primarily focused on winning the war militarily, and there was general disbelief and incomprehension that atrocities were occurring on such a massive scale."
+    answer: "They were focusing too much on winning the battles of the war, and many people could not believe that so many people were being killed."
   },
   {
     question: "10. How did World War II officially start?",
     marks: 2,
-    answer: "It started when Germany invaded Poland on September 1, 1939, causing Britain and France to declare war."
+    answer: "It started when Germany attacked Poland on 1 September 1939. This caused Britain and France to declare war on Germany."
   },
   {
-    question: "11. Paragraph Question: Write a paragraph (about 8 lines) explaining how Hitler persecuted those he hated in the 1930s to 1940s through the Holocaust.",
+    question: "11. Paragraph Question: Write a paragraph (about 8 lines) explaining how Hitler treated the people he hated during the 1930s and 1940s.",
     marks: 8,
-    answer: "Hitler believed in Aryan supremacy and used anti-Semitism to blame Jews for Germany's problems. The persecution began legally with the Nuremberg Laws in 1935, stripping Jews of citizenship and rights. Later, Jews were forced from their homes into overcrowded, diseased, and starving ghettoes. Finally, Hitler implemented the 'Final Solution', moving millions of Jews, Romani people, and other targeted groups into concentration and extermination camps where they were systematically murdered using gas chambers, resulting in the deaths of over six million Jews."
+    answer: "Hitler believed that German people were better than everyone else. He blamed Jewish people for Germany's problems. First, he made the Nuremberg Laws in 1935 to take away their rights and citizenship. Later, Jewish people were forced out of their homes and put into small, dirty areas called ghettoes where many died of hunger and sickness. Finally, Hitler started the 'Final Solution'. He sent millions of Jewish people and others to death camps where they were killed in gas chambers."
   },
   
   // SECTION B: THE NUCLEAR AGE AND THE COLD WAR
   {
-    question: "12. Identify the leaders of the 'Big Three' Allied powers at the Yalta Conference and the countries they represented.",
+    question: "12. Name the leaders of the 'Big Three' Allied powers at the Yalta Conference and the countries they came from.",
     marks: 3,
-    answer: "1) Winston Churchill (Britain), 2) Franklin D. Roosevelt (USA), 3) Josef Stalin (USSR/Russia)."
+    answer: "1) Winston Churchill from Britain, 2) Franklin D. Roosevelt from the USA, and 3) Josef Stalin from the USSR (Russia)."
   },
   {
-    question: "13. On which two Japanese cities were the atomic bombs dropped in August 1945?",
+    question: "13. Name the two Japanese cities where the atomic bombs were dropped in August 1945.",
     marks: 2,
     answer: "Hiroshima and Nagasaki."
   },
   {
-    question: "14. Explain why the United States of America chose to drop an atomic bomb instead of using conventional weapons.",
+    question: "14. Why did the USA choose to drop atomic bombs instead of fighting a normal war with Japan?",
     marks: 2,
-    answer: "To force a quick and unconditional surrender from Japan and to avoid a costly land invasion that would have resulted in thousands of American and Japanese casualties."
+    answer: "They wanted Japan to surrender quickly. They also wanted to stop more American soldiers from dying in a long battle on the ground."
   },
   {
-    question: "15. Describe the immediate effects of the first atomic bomb dropped on Hiroshima.",
+    question: "15. Describe what happened to the city of Hiroshima right after the first atomic bomb was dropped.",
     marks: 4,
-    answer: "The explosion instantly killed between 80,000 to 140,000 people. It created a massive fireball exceeding a million degrees, caused a blast wave that shattered windows miles away, and ignited a firestorm that demolished over two-thirds of the city's buildings."
+    answer: "The bomb killed over 80,000 people instantly. It created a massive ball of fire, a huge wave of force that broke windows miles away, and huge fires that destroyed most of the buildings in the city."
   },
   {
-    question: "16. After World War II, the USA and USSR emerged as global superpowers. Briefly explain the ideological divide between them.",
+    question: "16. After World War II, the USA and USSR became the world's superpowers. How were their beliefs different?",
     marks: 4,
-    answer: "The USA was a capitalist democracy, believing in free markets and multi-party elections. The USSR was a communist totalitarian state, believing in state ownership of property and a one-party system."
+    answer: "The USA was capitalist, which means people could own businesses and vote for their leaders. The USSR was communist, which means the government owned everything and people had no choice in who led them."
   },
   {
     question: "17. Why was the conflict between the USA and USSR called the 'Cold War'?",
     marks: 2,
-    answer: "Because the two superpowers never fought each other directly in an open, 'hot' combat, largely out of fear of mutual nuclear destruction."
+    answer: "Because they never actually fought each other face-to-face with weapons. They were too scared that a nuclear war would destroy the world."
   },
   {
     question: "18. What is a 'Proxy War'?",
     marks: 2,
-    answer: "A conflict where the two superpowers did not fight directly, but instead supported opposing sides in other countries' wars (e.g., the Korean War and Vietnam War)."
+    answer: "When two big superpowers do not fight each other directly, but they help opposite sides in smaller wars in other countries (like the Vietnam War)."
   },
   {
-    question: "19. Define the term 'Iron Curtain'.",
+    question: "19. What was the 'Iron Curtain'?",
     marks: 2,
-    answer: "The term used to describe the ideological and physical division of Europe during the Cold War, splitting it into Western Europe (allied with the USA) and Eastern Europe (controlled by the USSR)."
+    answer: "It was a word used to describe how Europe was divided into two parts during the Cold War. The West was allied with the USA, and the East was controlled by the USSR."
   },
   {
-    question: "20. Essay Prompt: 'The emergence of nuclear weapons changed the world balance of power and led to decades of tension known as the Cold War.' Do you agree? Use evidence from the end of WWII to support your argument.",
+    question: "20. Essay Prompt: 'Nuclear weapons changed the world and caused the Cold War.' Do you agree? Use facts from the end of WWII to explain your answer.",
     marks: 20,
-    answer: "A strong essay should include: \n- Introduction: Agreeing with the statement. The atomic bombs ended WWII but started the nuclear age.\n- Body Paragraph 1: The bombings of Hiroshima and Nagasaki showed the devastating power of nuclear weapons. This gave the USA a temporary monopoly on power.\n- Body Paragraph 2: The USSR quickly developed its own nuclear weapons, leading to a massive Arms Race. The fear of Mutually Assured Destruction (MAD) stopped direct war but caused global tension.\n- Body Paragraph 3: Because of nuclear weapons, the superpowers fought proxy wars and divided Europe (the Iron Curtain) rather than risking a 'hot' war.\n- Conclusion: Summarize how nuclear weapons created the unique conditions of the Cold War."
+    answer: "A good essay should include: \n- Introduction: Yes, nuclear weapons changed everything. The atomic bombs ended WWII but started a new age of fear.\n- Body Paragraph 1: The bombings of Hiroshima and Nagasaki showed how deadly these weapons were. This made the USA the strongest country for a short time.\n- Body Paragraph 2: The USSR quickly made their own nuclear weapons. This started an 'Arms Race' to see who could build the most bombs. The fear of destroying the whole world stopped them from fighting directly.\n- Body Paragraph 3: Because they could not fight a normal war, the superpowers fought proxy wars in other countries and divided Europe (the Iron Curtain).\n- Conclusion: Bring all points together. Nuclear weapons stopped a direct 'hot' war, but caused decades of fear and tension known as the Cold War."
   }
 ];
